@@ -1,5 +1,5 @@
 {
-  "pluginAlias": "HomebridgeFrigidaireTwo",
+  "pluginAlias": "homebridge-frigidaire-two",
   "pluginType": "platform",
   "singular": true,
   "schema": {
@@ -15,13 +15,15 @@
         "title": "Username",
         "type": "string",
         "required": true,
-        "default": "you@email.com"
+        "placeholder": "you@email.com",
+        "description": "Your frigidaire account email"
       },
       "password": {
         "title": "Password",
         "type": "string",
         "required": true,
-        "default": "secret"
+        "placeholder": "secret",
+        "description": "Your Frigidaire account password"
       }
     }
   }
