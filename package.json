@@ -1,6 +1,6 @@
 {
   "name": "homebridge-frigidaire",
-  "version": "2.1.3",
+  "version": "3.0",
   "description": "homebridge plugin for Frigidaire connected appliances",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/karlg100/homebridge-frigidaire.git"
+    "url": "git+https://github.com/zkwentz/homebridge-frigidaire.git"
   },
   "keywords": [
     "homebridge",
@@ -21,14 +21,19 @@
   ],
   "dependencies": {
     "debug": "^2.5.1",
-    "frigidaire": "^2.1.1"
+    "frigidaire-two": "^3.0"
   },
-  "author": {
-    "name": "Karl Grindley"
-  },
+  "contributors": [
+    {
+      "name": "Zach Wentz"
+    },
+    {
+      "name": "Karl Grindley"
+    },
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/karlg100/homebridge-frigidaire/issues"
+    "url": "https://github.com/zkwentz/homebridge-frigidaire/issues"
   },
-  "homepage": "https://github.com/karlg100/homebridge-frigidaire#readme"
+  "homepage": "https://github.com/zkwentz/homebridge-frigidaire#readme"
 }
